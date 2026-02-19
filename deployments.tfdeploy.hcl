@@ -16,5 +16,5 @@ deployment "prod" {
 
 upstream_input "network_stack" {
   type = "stack"
-  source = "localhost:4200/hashicorp/Linked Stacks/demo-network-linked-stack"
+  source = "app.staging.terraform.io/deans-new-org/Default Project/demo-network-linked-stack"
 }
